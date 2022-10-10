@@ -1,0 +1,10 @@
+import SwiftUI
+{# import AutomaticSettings #}
+
+{% for type in types.implementing.PlaybookSupportable %}
+	struct {{ type.name }}_PlaybookComponent: View {
+		var body: some View {
+			VStack {}
+		}
+	}
+{% endfor %}

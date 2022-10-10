@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "bottomsheet",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lucaszischka/BottomSheet",
+      "state" : {
+        "revision" : "4c9ef84552712e0117c37d4893270fdc28fb9288",
+        "version" : "3.1.0"
+      }
+    },
+    {
+      "identity" : "playbook-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/playbook-ui/playbook-ios",
+      "state" : {
+        "revision" : "b2f25b15e82bc9aca59d60e79695f0c338e0e2e9",
+        "version" : "0.3.2"
+      }
+    }
+  ],
+  "version" : 2
+}

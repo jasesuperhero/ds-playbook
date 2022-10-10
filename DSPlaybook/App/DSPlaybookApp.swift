@@ -6,12 +6,20 @@
 //
 
 import SwiftUI
+import PlaybookUI
+import Playbook
 
 @main
 struct DSPlaybookApp: App {
+    let playbook = Playbook()
+
+    init() {
+        playbook.add(DSScenario.self)
+    }
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PlaybookView(playbook: playbook)
         }
     }
 }

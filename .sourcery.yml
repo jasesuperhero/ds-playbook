@@ -1,0 +1,13 @@
+sources:
+  include:
+    - DSPlaybook
+templates:
+  - Stencil/PlaybookComponentScenario.stencil
+output:
+  CodeGen
+args:
+  # settingsView: SettingsView
+  # settingsStructure: Settings
+  # settingsExternalData: SettingsExternal
+  # settingsImports:
+  #   - UIKit
