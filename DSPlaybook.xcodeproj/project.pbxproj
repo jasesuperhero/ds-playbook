@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3CC0065228F432F100324BEE /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 3CC0065128F432F100324BEE /* BottomSheet */; };
+		35577E0728F855B700EFC9E6 /* Playbook in Frameworks */ = {isa = PBXBuildFile; productRef = 35577E0628F855B700EFC9E6 /* Playbook */; };
+		35577E0928F855B700EFC9E6 /* PlaybookSnapshot in Frameworks */ = {isa = PBXBuildFile; productRef = 35577E0828F855B700EFC9E6 /* PlaybookSnapshot */; };
+		35577E0B28F855B700EFC9E6 /* PlaybookUI in Frameworks */ = {isa = PBXBuildFile; productRef = 35577E0A28F855B700EFC9E6 /* PlaybookUI */; };
 		3CDE25EE28F0535000827874 /* DSPlaybookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDE25ED28F0535000827874 /* DSPlaybookApp.swift */; };
 		3CDE25F228F0535100827874 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CDE25F128F0535100827874 /* Assets.xcassets */; };
 		3CDE25F528F0535100827874 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CDE25F428F0535100827874 /* Preview Assets.xcassets */; };
-		3CDE25FD28F053BD00827874 /* Playbook in Frameworks */ = {isa = PBXBuildFile; productRef = 3CDE25FC28F053BD00827874 /* Playbook */; };
-		3CDE25FF28F053BD00827874 /* PlaybookSnapshot in Frameworks */ = {isa = PBXBuildFile; productRef = 3CDE25FE28F053BD00827874 /* PlaybookSnapshot */; };
-		3CDE260128F053BD00827874 /* PlaybookUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3CDE260028F053BD00827874 /* PlaybookUI */; };
 		3CDE260428F0545200827874 /* PlaybookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDE260328F0545200827874 /* PlaybookView.swift */; };
 		3CDE260928F0562300827874 /* turtlerock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CDE260828F0562300827874 /* turtlerock.jpg */; };
 		3CDE260C28F0566300827874 /* CirecleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDE260B28F0566300827874 /* CirecleImage.swift */; };
@@ -40,10 +39,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CDE25FD28F053BD00827874 /* Playbook in Frameworks */,
-				3CC0065228F432F100324BEE /* BottomSheet in Frameworks */,
-				3CDE25FF28F053BD00827874 /* PlaybookSnapshot in Frameworks */,
-				3CDE260128F053BD00827874 /* PlaybookUI in Frameworks */,
+				35577E0728F855B700EFC9E6 /* Playbook in Frameworks */,
+				35577E0928F855B700EFC9E6 /* PlaybookSnapshot in Frameworks */,
+				35577E0B28F855B700EFC9E6 /* PlaybookUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,10 +145,9 @@
 			);
 			name = DSPlaybook;
 			packageProductDependencies = (
-				3CDE25FC28F053BD00827874 /* Playbook */,
-				3CDE25FE28F053BD00827874 /* PlaybookSnapshot */,
-				3CDE260028F053BD00827874 /* PlaybookUI */,
-				3CC0065128F432F100324BEE /* BottomSheet */,
+				35577E0628F855B700EFC9E6 /* Playbook */,
+				35577E0828F855B700EFC9E6 /* PlaybookSnapshot */,
+				35577E0A28F855B700EFC9E6 /* PlaybookUI */,
 			);
 			productName = DSPlaybook;
 			productReference = 3CDE25EA28F0535000827874 /* DSPlaybook.app */;
@@ -181,8 +178,7 @@
 			);
 			mainGroup = 3CDE25E128F0535000827874;
 			packageReferences = (
-				3CDE25FB28F053BD00827874 /* XCRemoteSwiftPackageReference "playbook-ios" */,
-				3CC0064F28F432D300324BEE /* XCRemoteSwiftPackageReference "BottomSheet" */,
+				35577E0528F855B700EFC9E6 /* XCRemoteSwiftPackageReference "playbook-ios" */,
 			);
 			productRefGroup = 3CDE25EB28F0535000827874 /* Products */;
 			projectDirPath = "";
@@ -417,15 +413,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		3CC0064F28F432D300324BEE /* XCRemoteSwiftPackageReference "BottomSheet" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/lucaszischka/BottomSheet";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 3.0.0;
-			};
-		};
-		3CDE25FB28F053BD00827874 /* XCRemoteSwiftPackageReference "playbook-ios" */ = {
+		35577E0528F855B700EFC9E6 /* XCRemoteSwiftPackageReference "playbook-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/playbook-ui/playbook-ios";
 			requirement = {
@@ -436,24 +424,19 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		3CC0065128F432F100324BEE /* BottomSheet */ = {
+		35577E0628F855B700EFC9E6 /* Playbook */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3CC0064F28F432D300324BEE /* XCRemoteSwiftPackageReference "BottomSheet" */;
-			productName = BottomSheet;
-		};
-		3CDE25FC28F053BD00827874 /* Playbook */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3CDE25FB28F053BD00827874 /* XCRemoteSwiftPackageReference "playbook-ios" */;
+			package = 35577E0528F855B700EFC9E6 /* XCRemoteSwiftPackageReference "playbook-ios" */;
 			productName = Playbook;
 		};
-		3CDE25FE28F053BD00827874 /* PlaybookSnapshot */ = {
+		35577E0828F855B700EFC9E6 /* PlaybookSnapshot */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3CDE25FB28F053BD00827874 /* XCRemoteSwiftPackageReference "playbook-ios" */;
+			package = 35577E0528F855B700EFC9E6 /* XCRemoteSwiftPackageReference "playbook-ios" */;
 			productName = PlaybookSnapshot;
 		};
-		3CDE260028F053BD00827874 /* PlaybookUI */ = {
+		35577E0A28F855B700EFC9E6 /* PlaybookUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3CDE25FB28F053BD00827874 /* XCRemoteSwiftPackageReference "playbook-ios" */;
+			package = 35577E0528F855B700EFC9E6 /* XCRemoteSwiftPackageReference "playbook-ios" */;
 			productName = PlaybookUI;
 		};
 /* End XCSwiftPackageProductDependency section */
